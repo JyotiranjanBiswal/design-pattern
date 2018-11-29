@@ -1,7 +1,6 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-//https://github.com/domnikl/DesignPatternsPHP
 
 class EmployeeList implements SplSubject
 {
