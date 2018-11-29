@@ -30,6 +30,7 @@ class database {
 The problem will happen if you will create new instance wherever you want to get database connection. Imagine the scenario if you create multiple object then that much multiple identical database connection will be there in database server which will impact on speed on the server.
 
 **Impact after using singleton:**
+
 For overcoming above problem we will have to make sure our object will not be created multiple times from one class to another. So for that we have to think about singleton pattern, which create object of one class in one and one time only.
 
 ```
@@ -77,5 +78,6 @@ class database {
 From above example, the private constructor, which prevents object creation using the new keyword. Another indication is one static member variable which holds the reference to an already created object.
 
 **Singleton as anti-pattern**
-*Singleton create Global state of object. I would say global state is very bad because any code can change its value. So at the time of debugging it's really hard to find which portion of the code has made the current stage of global variable.
-*Singleton is generally a bad idea if you are doing unit testing, and it's generally a bad idea not to perform unit testing.
+
+_Singleton create Global state of object. I would say global state is very bad because any code can change its value. So at the time of debugging it's really hard to find which portion of the code has made the current stage of global variable.
+_Singleton is generally a bad idea if you are doing unit testing, and it's generally a bad idea not to perform unit testing.
