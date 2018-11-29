@@ -1,5 +1,6 @@
+# Observer design pattern
 
-Observer design pattern is a pattern which we can call also *Publish-Subscribe pattern*. It is an one type of behavioral design pattern which has one-to-many relationship between objects. That is when one object changes its state then its all dependent object will notified and updated automatically.
+Observer design pattern is a pattern which we can call also ***Publish-Subscribe pattern.*** It is an one type of behavioral design pattern which has one-to-many relationship between objects. That is when one object changes its state then its all dependent object will notified and updated automatically.
 *  ***The object which changes its state called subject (Publish).***
 *  ***All dependent object will notified called observer (Subscribe).***
 
