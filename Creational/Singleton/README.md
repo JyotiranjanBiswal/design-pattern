@@ -79,5 +79,5 @@ From above example, the private constructor, which prevents object creation usin
 
 **Singleton as anti-pattern**
 
-_Singleton create Global state of object. I would say global state is very bad because any code can change its value. So at the time of debugging it's really hard to find which portion of the code has made the current stage of global variable.
-_Singleton is generally a bad idea if you are doing unit testing, and it's generally a bad idea not to perform unit testing.
+*Singleton create Global state of object. I would say global state is very bad because any code can change its value. So at the time of debugging it's really hard to find which portion of the code has made the current stage of global variable.*
+*Singleton is generally a bad idea if you are doing unit testing, and it's generally a bad idea not to perform unit testing.*
