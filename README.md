@@ -10,9 +10,11 @@ Just like real world factories which creates product , there are different facto
 3. *bstract Factory*
  
 **Simple Factory Pattern:**
+
 Suppose you have to implement abstraction and the user of your class doesn't need to care about what you've implemented in class definition. He/She just need to worry about the use of your class methods. Imagine, suppose your project needs two database connection
 
 **Restriction:**
+
 a. *Factory class must have a static method(factory method)*
 b. *Static method(Factory method) must have to return class intance*
 c. *Only one object should be created at one time*
@@ -86,13 +88,17 @@ try {
 }
 ```
 
-Real Example:
+**Real Example:**
+
 Lets think about newspaper printing machine which has plate, ink, huge roller that all works together to create each print of your news paper.
 
-Factory Method:
+**Factory Method:**
+
 Factory Method and simple factory patter are most similar to each other but difference is factory method has multiple factories. You can use factory method if you have large number of product classes and want tp group them.
-Restriction
-1: each factory you create must implement a factory interface to make them polymorphic
+
+**Restriction**
+
+1: *each factory you create must implement a factory interface to make them polymorphic*
 2:
 
 ```
