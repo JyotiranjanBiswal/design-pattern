@@ -15,11 +15,9 @@ Suppose you have to implement abstraction and the user of your class doesn't nee
 
 **Restriction:**
 
-a. *Factory class must have a static method(factory method)*
-
-b. *Static method(Factory method) must have to return class intance*
-
-c. *Only one object should be created at one time*
+1. *Factory class must have a static method(factory method)*
+2. *Static method(Factory method) must have to return class intance*
+3. *Only one object should be created at one time*
 
 
 ```
@@ -102,7 +100,6 @@ Factory Method and simple factory patter are most similar to each other but diff
 **Restriction**
 
 1: *each factory you create must implement a factory interface to make them polymorphic*
-
 2:
 
 ```
