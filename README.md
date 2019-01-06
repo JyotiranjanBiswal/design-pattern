@@ -1,23 +1,21 @@
 # design-pattern
 
-
 1. Factory Design Pattern break the tight coupling between source of data and process of data.
 2. Factory design pattern is very good when you are dealing with multiple resources and want to implement high level abstraction.
 3. In general a "factory" produces objects, it means it is just a centralized place where things are created.
 
 Just like real world factories which creates product , there are different factory patterns .
-1. Simple Factory Pattern
-2. Factory Method
-3. Abstract Factory
+1. *Simple Factory Pattern*
+2. *Factory Method*
+3. *bstract Factory*
  
-
-Simple Factory Pattern:
+**Simple Factory Pattern:**
 Suppose you have to implement abstraction and the user of your class doesn't need to care about what you've implemented in class definition. He/She just need to worry about the use of your class methods. Imagine, suppose your project needs two database connection
 
-Restriction: 
-a. Factory class must have a static method(factory method)
-b. Static method(Factory method) must have to return class intance
-c. Only one object should be created at one time
+**Restriction:**
+a. *Factory class must have a static method(factory method)*
+b. *Static method(Factory method) must have to return class intance*
+c. *Only one object should be created at one time*
 
 ```
 <?php
