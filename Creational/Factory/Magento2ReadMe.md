@@ -1,4 +1,4 @@
-Magento2 Scenario:
+#Magento2 Scenario:
 In Case of non-injectable objects you should always use factories , Non-injectable such as Product, Customer and classes such as EventManager and all the Management classes are injectable in magento2. As injectable objects don’t have identities but in the case of non-injectable objects they have identities, so you don’t know which instance you need at which time, so you must use Factory classes to inject non-injectable objects.
 
 For example, let check the product model which you cann't depend, because you need to provide a product id or explicitly request a new, empty instance to get a Product object. For providing id is not posible through constructor signature, So magento cannot inject this object.
@@ -6,7 +6,7 @@ For example, let check the product model which you cann't depend, because you ne
 To get rid out of this limitation, injectable objects can depend on factories that produce newable objects.
 
 
-E.G:
+Example:
 ```
 <?php
 namespace Magento\Catalog\Model;
@@ -55,7 +55,7 @@ class ProductFactory
 }
 ```
 
-Used In
+**Used In**
 https://github.com/magento/magento2/blob/2.3/app/code/Magento/CatalogInventory/Model/StockStateProvider.php
 
 
@@ -107,3 +107,7 @@ class CustomerFactory
     }
 }
 ```
+
+**Used In**
+https://github.com/magento/magento2/blob/b8892f057a42244be88ac9a46b9885f3ec525943/app/code/Magento/Customer/Model/ResourceModel/Address/Relation.php
+
