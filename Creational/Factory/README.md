@@ -6,7 +6,7 @@
 Just like real world factories which creates product , there are different factory patterns .
 1. *Simple Factory Pattern*
 2. *Factory Method*
-3. *bstract Factory*
+3. *Abstract Factory*
  
 **Simple Factory Pattern:**
 
@@ -94,12 +94,12 @@ Lets think about newspaper printing machine which has plate, ink, huge roller th
 
 **Factory Method:**
 
-Factory Method and simple factory patter are most similar to each other but difference is factory method has multiple factories. You can use factory method if you have large number of product classes and want tp group them.
+Factory Method and simple factory patter are most similar to each other but difference is factory method has multiple factories. You can use factory method if you have large number of product classes and want to group them.
 
 **Restriction**
 
-1: *each factory you create must implement a factory interface to make them polymorphic*
-2:
+1: *Each factory you create must implement a factory interface to make them polymorphic*
+2: 
 
 ```
 <?php
