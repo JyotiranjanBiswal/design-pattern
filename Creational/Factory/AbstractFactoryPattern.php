@@ -164,7 +164,7 @@ class SkodaDieselCar extends AbstractDieselCar {
 
 //Execution
 
-echo '############# TESTINF TataCarFactory ###############'."<br/>";
+echo '############# TESTING TataCarFactory ###############'."<br/>";
 $carFactoryInstance = new TataCarFactory;
 $dieselCarOne = $carFactoryInstance->makeDieselCar();
 echo 'first diesel engine: ' . $dieselCarOne->getEngine()."<br/>";
