@@ -195,7 +195,7 @@ echo 'Petrol Company: ' . $petrolCar->getCompany()."<br/>";
 
 /*
 OutPut:
-############# TESTINF TataCarFactory ###############
+############# TESTING TataCarFactory ###############
 first diesel engine: 2694 cc
 first diesel company: Tata India
 second diesel Engine: 2500 cc
