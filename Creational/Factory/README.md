@@ -409,7 +409,7 @@ class SkodaDieselCar extends AbstractDieselCar {
 
 //Execution
 
-echo '############# TESTINF TataCarFactory ###############'."<br/>";
+echo '############# TESTING TataCarFactory ###############'."<br/>";
 $carFactoryInstance = new TataCarFactory;
 $dieselCarOne = $carFactoryInstance->makeDieselCar();
 echo 'first diesel engine: ' . $dieselCarOne->getEngine()."<br/>";
@@ -440,7 +440,7 @@ echo 'Petrol Company: ' . $petrolCar->getCompany()."<br/>";
 
 /*
 OutPut:
-############# TESTINF TataCarFactory ###############
+############# TESTING TataCarFactory ###############
 first diesel engine: 2694 cc
 first diesel company: Tata India
 second diesel Engine: 2500 cc
