@@ -46,3 +46,11 @@ class Bar extends Singleton {}
 
 echo get_class(Foo::getInstance()) . "\n";
 echo get_class(Bar::getInstance()) . "\n";
+
+
+/*
+OUTPUT:
+
+Foo
+Bar
+*/
