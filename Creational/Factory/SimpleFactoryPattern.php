@@ -64,3 +64,11 @@ try {
 } catch(Exception $e) {
     echo $e->getMessage(); // CarFactory could not create car of types 'electric'
 }
+
+
+/*
+OUTPUT:
+petrol car 
+diesel car 
+Car factory could not create car of types 'electric'
+*/
