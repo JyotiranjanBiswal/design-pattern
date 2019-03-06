@@ -76,3 +76,17 @@ $ul->addEmployee('Ranjan');
 echo "</br >";
 echo "</br >";
 $ul->addEmployee('Biswal');
+
+
+/*
+OUTPUT:
+
+First created employees: "Jyoti"
+Last created employees: "Jyoti"
+
+First created employees: "Jyoti"
+Last created employees: "Ranjan"
+
+First created employees: "Jyoti"
+Last created employees: "Biswal"
+*/
