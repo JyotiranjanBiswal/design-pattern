@@ -133,3 +133,14 @@ try {
 } catch(Exception $e) {
     echo $e->getMessage();
 }
+
+
+
+/*
+OUTPUT:
+
+Connecting to Luxury petrol car located in India
+Connecting to Luxury diesel car located in China
+Connecting to Nano petrol car located in India
+Connecting to Nano diesel car located in China
+*/
